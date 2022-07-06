@@ -16,7 +16,7 @@ Como trabalhamos em unidades "rem", usamos porcentagem na tag "html" para dimens
 
 @media (max-width: 768px) {
   html {
-    font-size: 87, 5%;
+    font-size: 87%;
   }
 
   .wrapper {
