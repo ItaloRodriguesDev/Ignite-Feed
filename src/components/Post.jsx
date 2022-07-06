@@ -22,16 +22,7 @@ export function Post() {
       </header>
 
       <div className={styles.content}>
-         <p>Fala galera</p>
-         <p>Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW Return, evento da Rocketseat</p>
-         <p><a href="#"> 👉 jane.design/doctorcare</a></p>
-         <p>
-           <a href="">
-             <a>#novoprojeto</a>{' '}
-             <a>#nlw</a>{' '}
-             <a>#rocketseat</a>{' '}
-             </a>
-          </p>
+
       </div>
 
       <form className={styles.commentForm}>
