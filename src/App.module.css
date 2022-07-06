@@ -8,3 +8,18 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+/*Responsividade
+@media diz que tudo que tiver menos de 768px deve entrar na condição de grid-template-columns: 1fr. Se tiver mais do que isso volta a ter duas colunas.
+Como trabalhamos em unidades "rem", usamos porcentagem na tag "html" para dimensionar todas as outras tags, facilitando o processo.
+*/
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87, 5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
