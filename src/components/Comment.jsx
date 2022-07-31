@@ -18,7 +18,7 @@ function handleLikeComment() {
 
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="https://github.com/maykbrito.png" alt="Imagem avatar" />
+      <Avatar hasBorder={false} src="https://github.com/ansulima.png" alt="Imagem avatar" />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
